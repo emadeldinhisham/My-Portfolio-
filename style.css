@@ -1,0 +1,189 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+background-color:#02193d;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 100px;
+}
+.logo{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+      font-weight: 700;
+    font-size: 1.8em;
+}
+.Navigation a{
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: cornsilk;
+    /* padding-left: 100px; */
+}
+.Navigation a:hover{
+
+    color: rgb(34, 14, 184);
+}
+section{
+    padding: 100px 60px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/office-table-with-cup-coffee-keyboard-notepad.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+
+}
+.main h2{
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-top:10px;
+}
+.main h2 span{
+    display: inline-block;
+    color:darkorange;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.main h3{
+    color: rgb(209, 163, 12);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    text-decoration: none;
+    background-color:#02193d;
+    color: rgb(192, 233, 10);
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    letter-spacing:1px;
+    transition: 0.7s;
+}
+.main-btn:hover{
+    background-color: #56571f;
+    transform: scale(1.1);
+}
+.Social-Icons a{
+    color:#e4e4e6;
+    font-size: 1.8em;
+    padding-right: 30px;
+}
+
+.Social-Icons a:hover{
+    color: rgb(12, 57, 155);
+}
+
+ #git:hover{
+    color: chocolate;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:#02193d;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+   }
+   .Content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+   }
+   .card{
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 20px ;
+    margin: 15px;
+   }
+   .card:hover{
+    transform: scale(1.1);
+   }
+   .icon{
+    color: rgb(43, 4, 150);
+    text-align: center;
+    font-size: 6em;
+   }
+   .info h3 {
+    color: #02193d;
+    font-size: 2.2em;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px;
+   }
+   .info p{
+    color:darkred;
+    font-weight:500;
+    font-size: 1.2em;
+   }
+   .Projects{
+    background-color: rgb(211, 208, 206);
+   }
+   .Projects .content{
+    margin-top: 30px;
+   }
+   .Projects .Project-Card{
+    background-color: #e4e4e6;
+    border: 1px  solid rebeccapurple;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 2px;
+    margin: 20px;
+    transition: 0.7s ease;
+   }
+   .Project-Card:hover{
+    transform: scale(1.1);
+   }
+   .Projects .Project-Image img{  
+    width: 100%;
+    
+   }
+   .Project-Card:hover .Project-Image{
+    opacity: 0.5;
+   }
+   .Project-Info{
+    padding: 1em;
+   }
+   .Project-Category{
+    font-weight: 700;
+    font-size: 0.8em;
+    text-align: center;
+   }
+   .Project-Title{
+    display: flex;
+    justify-content:space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 10px;
+   }
+   .More-details{
+    text-decoration: none;
+    color: #02193d;
+   }
