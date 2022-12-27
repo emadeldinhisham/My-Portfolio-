@@ -43,32 +43,35 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/office-table-with-cup-coffee-keyboard-notepad.jpg) no-repeat;
+    background: url(/images/main.jpg) fixed;
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
 
 }
 .main h2{
-    color:rgb(255, 255, 255);
+    color:rgb(20, 103, 228);
     font-weight: 500;
     font-size: 1.4em;
-    margin-top:10px;
+    margin-top:-10px;
+    padding-left: 10px
+   
 }
 .main h2 span{
     display: inline-block;
-    color:darkorange;
+    color:rgb(10, 226, 21);
     font-size: 1.8em;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: -50px;
 }
 .main h3{
-    color: rgb(209, 163, 12);
+    color: rgb(12, 226, 155);
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+    padding-left: 10px;
 }
 .main-btn{
     text-decoration: none;
@@ -88,13 +91,13 @@ section{
     transform: scale(1.1);
 }
 .Social-Icons a{
-    color:#e4e4e6;
+    color:#071b5a;
     font-size: 1.8em;
     padding-right: 30px;
 }
 
 .Social-Icons a:hover{
-    color: rgb(12, 57, 155);
+    color: rgb(6, 50, 145);
 }
 
  #git:hover{
@@ -146,7 +149,7 @@ section{
     background-color: rgb(211, 208, 206);
    }
    .Projects .content{
-    margin-top: 30px;
+    margin-top: 20px;
    }
    .Projects .Project-Card{
     background-color: #e4e4e6;
